@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CameraDistort
+  m_Shader: {fileID: 4800000, guid: aae766f25e57bbc4a8035cabdb64928a, type: 3}
+  m_ShaderKeywords: _REVERSEFLASHING_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CutTex:
+        m_Texture: {fileID: 2800000, guid: fc91d6e98840f014aa9e601dcc5fef30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistTex:
+        m_Texture: {fileID: 2800000, guid: 1f67d3a562b0d474aad27b1d974182c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 1}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 224e7c67b6f6d5040afccab932292f76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Direction: 0
+    - _FlashTime: 2.34
+    - _Offset: 1
+    - _Percentage: 0.369
+    - _ReverseFlashing: 1
+    - _SinForce: 0
+    - _Speed: 0
+    - _Strenght: 0.018
+    m_Colors:
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _FlashColor: {r: 0.4044118, g: 1, b: 0.40851927, a: 1}
+    - _Offset: {r: 0, g: 0.08, b: 0, a: 0}
